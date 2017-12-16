@@ -1,0 +1,66 @@
+
+li.person {
+    border-bottom: 1px solid #F5F8FA;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pr-menu ul li.active a {
+    color: #1abc9c;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.pr-menu a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: 28px;
+    color: #000;
+    height: 28px;
+}
+
+.person ul {
+    padding-left: 6px;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px auto;
+    font-size: 12px;
+}
+
+.person ul li a {
+    color: #666;
+}
+
+.userpic img{
+    width: 57px;
+    height: 57px;
+}
+.user div a{
+    color: black;
+    display: block;
+    margin-top: 20px;
+}
+.user-bottom div a{
+    color: black;
+}
+
+.s-bar {
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding: 11px 0px 8px;
+    margin: 0px 10px;
+    text-align: left;
+}
+.item-info a img{
+    width: 70px;
+    height: 70px;
+}
+
+.lg-item{
+    margin: 10px;
+}

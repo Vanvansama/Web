@@ -1,0 +1,108 @@
+.nav-breadcrumb ol{
+    text-align: left;
+}
+
+.tb-detail-hd {
+    padding: 20px 10px 12px;
+    color: #000;
+}
+.tb-detail-hd h1 {
+    padding-bottom: .2em;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.tm-ind-panel {
+    border: 1px dotted #c9c9c9;
+    border-width: 1px 0;
+    margin: -1px 20px 0 0;
+    padding: 10px 0;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    display: flex;
+}
+.des{
+    margin: 20px;
+    background-color: #f7f7f7;
+    text-align: left;
+    padding: 10px 0px 3px 60px;
+}
+.tm-ind-item {
+    float: left;
+    width: 33%;
+    text-align: center;
+    position: relative;
+    left: -1px;
+    border-left: 1px solid #e5dfda;
+    flex: 1;
+    line-height: 16px;
+}
+
+.tb-action {
+    clear: both;
+    padding: 30px 0 0 66px;
+    margin: 10px 0 0;
+}
+
+.tb-action .btn a{
+    text-decoration: none;
+    color: #FF0036;
+}
+
+.tb-action .btn {
+    margin-right: 60px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+    background-color: #ffeded;
+    border: 1px solid #FF0036;
+    color: #FF0036;
+}
+
+.tm-ser {
+    margin: 0 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.tm-ser dl {
+    margin-right: 67px;
+}
+
+.tb-metatit {
+    text-align: left;
+    float: left;
+    width: 66px;
+}
+.tb-metatit, .tb-metatit a {
+    color: #999;
+}
+.tm-ser{
+    padding-left: 60px;
+}
+.tm-ser .tm-laysku-dd {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: auto;
+    float: none;
+}
+.tm-ser .tb-serPromise {
+    overflow: hidden;
+}
+.tm-ser .tb-serPromise li {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.tm-ser .tb-serPromise a {
+    display: inline-block;
+    padding: 0 2px 0 0;
+    margin: 0 10px 0 0;
+    color: #666;
+    white-space: nowrap;
+}

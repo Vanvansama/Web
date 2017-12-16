@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="person.html">
+                                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span> My Account</a>
+                            </li>
+                            <li>
+                                <a href="404.html">
+                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span> My Wish</a>
+                            </li>
+                            <li>
+                                <a href="cart.html">
+                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> My Cart</a>
+                            </li>
+                            <li>
+                                <a href="login.html">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dropdown">
+                        <a id="dLabel1" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Language
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel1">
+                            <li>
+                                <a href="404.html">Chinese</a>
+                            </li>
+                            <li>
+                                <a href="404.html">English</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="404.html">Whatever it is</a>
+                            </li>
+                            <li>
+                                <a href="404.html">Who care</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a id="dLabel2" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            商家支持
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel2">
+                            <li>
+                                <a>团子科技</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-branding-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-xs-8">
+                    <div class="logo">
+                        <h1>
+                            <a href="index.html">van
+                                <span>Tuanzi</span>
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 hidden-xs">
+                    <div class="search-box ">
+                        <form action="#">
+                            <input class="form-control search-form" type="text" placeholder="Search entire store here">
+                            <button class="search-button" value="Search" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="concent">
+        <div class="container">
+            <div class="row">
+                <div class="cartTable panel panel-default">
+                    <div class="cart-table-th">
+                        <div class="wp row">
+                            <div class="th th-chk col-md-1">
+
+                            </div>
+                            <div class="th th-item col-md-4">
+                                <div class="td-inner">商品信息</div>
+                            </div>
+                            <div class="th th-price col-md-1">
+                                <div class="td-inner">单价</div>
+                            </div>
+                            <div class="th th-amount col-md-2">
+                                <div class="td-inner ">数量</div>
+                            </div>
+                            <div class="th th-sum col-md-2">
+                                <div class="td-inner">金额</div>
+                            </div>
+                            <div class="th th-op col-md-2">
+                                <div class="td-inner">操作</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="well"></div>
+                    <div class="bundle-main">
+                        <div class="item-content row" id="table">
+                            <div class="td td-chk col-md-1">
+                                <div class="cart-checkbox">
+                                    <input type="checkbox" name="check">
+                                </div>
+                            </div>
+                            <div class="td td-item col-md-4">
+                                <div class="row">
+                                    <div class="item-pic col-md-3">
+                                        <a href="#" target="_blank">
+                                            <img src="images/cart/cart.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="item-info col-md-5">
+                                        <div class="item-basic-info">
+                                            <a href="#" target="_blank">Athief毛边拼接连帽卫衣男宽松拉链开衫帽衫嘻哈潮牌贴布外套秋季</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-des-info col-md-4">
+                                        <div class="item-props item-props-can">
+                                            <span class="sku-line">颜色：军绿</span>
+                                            <br>
+                                            <span class="sku-line">包装：盒装</span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="td td-price col-md-1 ">
+                                <div class="item-price price-promo-promo">
+                                    <div class="price-content">
+                                        <div class="price-line">
+                                            <em class="price-now" tabindex="0" name="priceNow">239.00</em>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="td td-amount col-md-2">
+                                <div class="amount-wrapper ">
+                                    <div class="item-amount ">
+                                        <div class="sl">
+                                            <input class="min btn" name="" type="button" value="-" onclick="min1()">
+                                            <span class="text_box" name="num" style="width:30px;height:40px;" id="num1">1</span>
+                                            <input class="add btn" name="" type="button" value="+" onclick="add1()">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="td td-sum col-md-2 ">
+                                <div class="td-inner">
+                                    <em tabindex="0" class="J_ItemSum number" name="priceAll">0.00</em>
+                                </div>
+                            </div>
+                            <div class="td td-op col-md-2">
+                                <div class="td-inner">
+                                    <a title="移入收藏夹" class="btn-fav" href="#">
+                                        移入收藏夹</a>
+                                    <a href="javascript:;" data-point-url="#" class="delete">
+                                        删除</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item-content row">
+                            <div class="td td-chk col-md-1">
+                                <div class="cart-checkbox ">
+                                    <input type="checkbox" name="check">
+                                </div>
+                            </div>
+                            <div class="td td-item col-md-4">
+                                <div class="row">
+                                    <div class="item-pic col-md-3">
+                                        <a href="#" target="_blank">
+                                            <img src="images/cart/cart.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="item-info col-md-5">
+                                        <div class="item-basic-info">
+                                            <a href="#" target="_blank">Athief毛边拼接连帽卫衣男宽松拉链开衫帽衫嘻哈潮牌贴布外套秋季</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-des-info col-md-4">
+                                        <div class="item-props item-props-can">
+                                            <span class="sku-line">颜色：军绿</span>
+                                            <br>
+                                            <span class="sku-line">包装：盒装</span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="td td-price col-md-1">
+                                <div class="item-price price-promo-promo">
+                                    <div class="price-content">
+
+                                        <div class="price-line">
+                                            <em class="price-now" tabindex="0" name="priceNow">239.00</em>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="td td-amount col-md-2 ">
+                                <div class="amount-wrapper ">
+                                    <div class="item-amount ">
+                                        <div class="sl">
+                                            <input class="min btn" name="" type="button" value="-" onclick="min2()">
+                                            <span class="text_box" name="num" style="width:30px;height:40px;" id="num2">1</span>
+                                            <input class="add btn" name="" type="button" value="+" onclick="add2()">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="td td-sum col-md-2">
+                                <div class="td-inner">
+                                    <em tabindex="0" class="J_ItemSum number" name="priceAll">0.00</em>
+                                </div>
+                            </div>
+                            <div class="td td-op col-md-2">
+                                <div class="td-inner">
+                                    <a title="移入收藏夹" class="btn-fav" href="#">
+                                        移入收藏夹</a>
+                                    <a href="javascript:;" data-point-url="#" class="delete">
+                                        删除</a>
+                                </div>
+                            </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sum well">
+                        <div class="row">
+                            <div class="select-all col-md-1">
+                                <div class="cart-checkbox">
+                                    <input class="check-all check" type="checkbox" onclick="selectall()">
+                                    <span>全选</span>
+                                </div>
+                            </div>
+                            <div class="operations col-md-5">
+                                <a href="#" hidefocus="true" class="deleteAll">删除</a>
+                                <a href="#" hidefocus="true" class="">移入收藏夹</a>
+                            </div>
+
+                            <div class="amount-sum col-md-2">
+                                <span class="txt">已选商品</span>
+                                <em id="J_SelectedItemsCount">2</em>
+                                <span class="txt">件</span>
+                                <div class="arrow-box">
+                                    <span class="selected-items-arrow"></span>
+                                    <span class="arrow"></span>
+                                </div>
+                            </div>
+                            <div class="price-sum col-md-2">
+                                <span class="txt">合计:</span>
+                                <strong class="price">¥
+                                    <em id="sum"></em>
+                                </strong>
+                            </div>
+                            <div class="btn-area col-md-2">
+                                <a href="pay.html" class="btn btn-default">
+                                    <span>结&nbsp;算</span>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/cart.js"></script>
+        <script src="js/sum.js"></script>
+</body>
+
+</html>

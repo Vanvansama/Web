@@ -1,0 +1,90 @@
+.logo a{
+    font-size: 65px;
+}
+.login-box{
+    width: 100%;
+    max-width: 360px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #f8f8f8;
+    right: 2%;
+    padding: 10px 20px;
+}
+
+.login-box h3.title {
+    text-align: center;
+    padding: 8px;
+    font-weight: 500;
+}
+
+.login-form {
+    background: #fff;
+    width: 100%;
+}
+
+form, .am-cf, .partner {
+    max-width: 640px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.user-name, .user-pass, .user-email, .user-phone, .verification {
+
+    height: 42px;
+    margin-bottom: 5px;
+}
+
+form input {
+    font-size: 14px;
+    line-height: 18px;
+    height: 42px;
+    padding: 11px 8px 11px 50px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.login-links {
+    max-width: 320px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.login-links a{
+    color: black;
+}
+.remember-me{
+    float: left;
+}
+.forget, .register{
+    padding-left: 10px;
+    float: right;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.am-cf input {
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.btn {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.partner h3 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.login{
+    background-color: #1abc9c;
+    height: 500px;
+}

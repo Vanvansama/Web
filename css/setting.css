@@ -1,0 +1,41 @@
+.page-title{
+    text-align: left;
+}
+
+.user-infoPic {
+    position: relative;
+    margin: 20px 5% 50px;
+    height: 130px;
+    border-bottom: 1px solid #eee;
+}
+
+.filePic {
+    width: 100px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.filePic img{
+    width: 100px;
+    height: 100px;
+}
+
+.info-m {
+    display: block;
+    float: left;
+    overflow: hidden;
+    line-height: 24px;
+    position: absolute;
+    left: 6%;
+    top: 25px;
+    margin-left: 120px;
+    text-align: left;
+}   
+.info-m a{
+    color: black;
+}
+
+.info-main{
+    text-align: left;
+}

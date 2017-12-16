@@ -1,0 +1,32 @@
+.res-tab li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.res-tab li a{
+    color: #000;
+    font-size: 20px;
+}
+#sendMobileCode {
+    margin-top: 4px;
+
+}
+.footer {
+    text-align: left;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    padding: 7px 0px 9px;
+    margin-top: 20px;
+    max-width: 1200px;
+    color: black;
+}
+
+.footer-hd a{
+    color: black
+}
+
+.res-banner{
+    background-color: #1abc9c;
+    height: 500px;
+}

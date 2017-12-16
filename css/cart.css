@@ -1,0 +1,17 @@
+.wp{
+    padding: 10px;
+}
+.item-pic a img{
+    width: 80px;
+    height: 80px;
+}
+.item-content{
+    padding-bottom: 10px;
+}
+.item-basic-info a{
+    color: #1abc9c;
+}
+
+.operations{
+    text-align: left;
+}

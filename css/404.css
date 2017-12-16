@@ -1,0 +1,19 @@
+body{
+    background:url(../images/404.jpg) no-repeat 0px 0px;
+}
+.fail{
+    padding: 200px;
+    text-align: center;
+}
+h1{
+    color: rgb(158, 154, 154);
+    font-size: 300px;
+}
+h3{
+    font-size: 35px;
+    color: rgb(121, 113, 113);
+}
+span{
+    font-size: 20px;
+    color: rgb(48, 42, 42);
+}
